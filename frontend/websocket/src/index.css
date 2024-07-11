@@ -1,0 +1,63 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.main-container {
+  padding-top: 2em;
+}
+
+.chat-body {
+  width: 50%;
+
+  border-radius: 12px;
+  justify-content: end;
+  opacity: 80%;
+}
+
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  flex-shrink: inherit;
+}
+
+.btn-login {
+  margin-top: 10px;
+}
+
+.login-form {
+  position: relative;
+  width: 35%;
+}
+
+.message-container {
+  padding: 2em;
+  display: flex;
+}
+
+.form {
+  width: 600px;
+}
+
+.form-container {
+  padding: 1em;
+  display: flex;
+}
+.form-input {
+  width: 100%;
+  flex-grow: calc(200px + -25%);
+  flex-wrap: wrap;
+}
+
+p {
+  word-break: break-all;
+}
